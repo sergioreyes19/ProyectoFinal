@@ -49,7 +49,7 @@ namespace ProyectoFinal
          
 
             cod = this.grvproducto.SelectedRow.Cells[1].Text;
-            Labelprueba.Text = cod;
+            Labelprueba.Text = cod; 
         }
     }
 }
