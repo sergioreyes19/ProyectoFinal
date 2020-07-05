@@ -53,10 +53,12 @@
                     <ul class="nav navbar-nav">
                         <li><a runat="server" href="~/">Inicio</a></li>
                         <li><a runat="server" href="~/Productos">Productos</a></li>
-                        <li><a runat="server" href="~/VentaListado">Venta</a></li>
+                         <li><a runat="server" href="~/editar productos">editar productos</a></li>
                         <li><a runat="server" href="~/Clientes">Clientes</a></li>
-                        <li><a runat="server" href="~/Ventas">Carrito</a></li>
                         <li><a runat="server" href="~/tienda">Tiendas</a></li>
+                       <li><a runat="server" href="~/estadoventa">estadoventa</a></li>
+                        
+                      
 
                     </ul>
                 </div>

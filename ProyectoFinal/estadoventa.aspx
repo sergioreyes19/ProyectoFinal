@@ -5,6 +5,9 @@
             <asp:CommandField ButtonType="Button" EditText="Entregar" SelectText="Entregar" ShowSelectButton="True" />
         </Columns>
     </asp:GridView>
-    <asp:Button ID="Button1" runat="server" Height="26px" OnClick="Button1_Click" Text="Button" />
     <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+    <asp:Button ID="Button1" runat="server" Height="26px" OnClick="Button1_Click" Text="Button" />
 </asp:Content>
+
+
+   

@@ -16,6 +16,7 @@ namespace ProyectoFinal
         // vc se le agregan todos los registros con estado No
         static List<Entregable> entregable = new List<Entregable>();
 
+
         static int posicionamodificar;
 
         //Variables Global para poder utilizarlos en cualquier funcion

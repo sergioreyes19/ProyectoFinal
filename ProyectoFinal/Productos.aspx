@@ -25,7 +25,7 @@
 
         <div class="col-md-4 mb-3">
             <label>Marca</label>&nbsp;
-            <asp:DropDownList ID="DropDownMarca" runat="server">
+            <asp:DropDownList ID="DropDownMarca" runat="server" CssClass="form-control">
             </asp:DropDownList>
         </div>
         <div class="col-md-4 mb-3">
@@ -40,12 +40,14 @@
     </div>
 
     <div class="form-group">
-                <label>Descripcion del Producto</label>
-        <asp:TextBox ID="txtdescripcion" runat="server"></asp:TextBox>
+        <div class="col-md-12 mb-12">
+            <label>Descripcion del Producto</label>
+            <asp:TextBox ID="txtdescripcion" runat="server" CssClass="form-control" Rows="2"></asp:TextBox>
+        </div>
     </div>
 
-    <div>
-            <asp:Button ID="Button1" runat="server" Text="Guardar" Class="btn btn-success" OnClick="Button1_Click" />
+    <div class="col-md-12 mb-12">
+        <asp:Button ID="Button1" runat="server" Text="Guardar" Class="btn btn-success" OnClick="Button1_Click" />
     </div>
 
 </asp:Content>
